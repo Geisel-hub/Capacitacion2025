@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head runat="server">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <!--Recursos de fuentes-->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet' />
+        <script src="JS/boxicons.js"></script>
+        <!--Estilos CSS-->
+        <link href="CSS/index.css" rel="stylesheet" />
+        <link href="CSS/TablaRecursos.css" rel="stylesheet" />
+        
+        <link rel="shortcut icon" href="IMG/LogoCapacitacion.png" />
+        <title>Capacitación de Clubes ADE</title>
+    </head>
+    <body>        
+        <form id="form1" runat="server" class="semana">
+            <!--Scroll Button-->
+            <div class="scroll-btn">
+                <a href="#inicio">
+                    <i class='bx bx-up-arrow-alt'></i>
+                </a>
+                
+            </div>
+            <!--Menu de Navegacion de Inicio-->
+            <nav>
+                <div class="navbar">
+                    <div class="logo"><a href="#"><img src="IMG/CapacitacionyespecialidadesADE.png" alt="LogoCapacitación"/></a></div>
+                    <ul class="menu">
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#certificados">Certificados</a></li>
+                        <li><a href="#recursos">Recursos</a></li>
+                        <li><a href="login.html">Acceso</a></li>
+                        <div class="cancel-btn">
+                            <i class='bx bx-x' ></i>
+                        </div>
+                    </ul>
+                    <div class="media-icons">
+                        <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                        <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                        <a href="#"><i class='bx bxl-youtube' ></i></a>
+                    </div>
+                </div>
+                <div class="menu-btn">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+
+            <!--Inicio de la Sección Principal-->
+            <section class="home" id="inicio">
+                <div class="home-content">
+                    <div class="text">
+                        <div class="text-one">Bienvenidos</div>
+                        <div class="text-two">Certificaciones 2025</div>
+                        <div class="text-three">Estas Preparado</div>
+                        <!--<div class="text-four">Unete</div>-->
+                    </div>
+                    <div class="button">
+                        <button type="button" onclick="window.location.href='registro.aspx'">Registrate</button>
+                    </div>
+                </div>
+            </section>
+            <!--Final de la Sección Principal-->
+
+            <!--Inicio Seccion Acerca de la Capacitación-->
+            <section class="about" id="nosotros">
+                <div class="content">
+                    <div class="title"><span>Comisión 2025</span></div>
+                    <div class="about-details">
+                        <div class="right">
+                            <img src="IMG/Fotos/comision2025.png" alt="" />
+                        </div>
+                        <div class="left">
+                            <div class="topic">Nuestro Objetivo</div>
+                            <p>
+                                Este programa es parte de las capacitaciones que el Ministerio de 
+                                Jóvenes Adventistas de la Asociación Dominicana del Este, estará 
+                                impartiendo a todos su líderes de clubes durante este año.<br />
+                                Te animamos a que no pierdas la oportunidad de continuar 
+                                desarrollando tu liderazgo  y seas parte de este gran evento.
+                            </p>
+                            <div class="button">
+                                <button type="button" onclick="window.location.href='registro.aspx'">Registrate</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--Final Seccion Acerca de la Capacitación-->
+
+            <!--Inicio de la Seccion de Certificados Disponibles-->
+            <section class="certificados" id="certificados">
+                <div class="content">
+                    <div class="title"><span>Certificados 2025</span></div>
+                    <div class="boxes">
+                        <div class="box">
+                            <div class="icon">
+                                <img src="IMG/Certificacion_Basica_Avent.png" />
+                            </div>
+                            <div class="topic">Certificación Básica de Aventureros</div>
+                            <p>
+                                La Certificación para el Ministerio de Clubes de Aventureros, 
+                                es una oportunidad única para desarrollar habilidades y conocimientos 
+                                especializados en el campo de Liderazgo de Clubes de Aventureros.
+                            </p>
+                        </div>
+                        <div class="box">
+                            <div class="icon">
+                                <img src="IMG/Certificacion_Basica_Conqui.png" />
+                            </div>
+                            <div class="topic">Certificación Básica de Conquistadores</div>
+                            <p>
+                                La Certificación para el Ministerio de Clubes de Conquistadores/Guías Mayores, 
+                                es una oportunidad única para desarrollar habilidades y conocimientos especializados en 
+                                el campo de Liderazgo de Clubes de Conquistadores y Guías.
+                            </p>
+                        </div>
+                        <div class="box">
+                            <div class="icon">
+                                <img src="IMG/Director_aventureros.png" />
+                            </div>
+                            <div class="topic">Certificación Director de Aventureros</div>
+                            <p>
+                                La Certificación de Director del Club de Aventureros es parte de la Capacitación en el 
+                                Ministerios de Jóvenes Adventistas (AYMT, por sus siglas en inglés) que incluye 
+                                certificaciones para los Ministerios del Club de Aventureros, Ministerios del Club de 
+                                Conquistadores, Guías Mayores y el Ministerio de Jóvenes.
+                            </p>
+                        </div>
+                        <div class="box">
+                            <div class="icon">
+                                <img src="IMG/Certificacion_Basica_Avent.png" />
+                            </div>
+                            <div class="topic">Certificación Directores de Conquistadores</div>
+                            <p>
+                                La Certificación de Director del Club de Conquistadores es parte de la Capacitación 
+                                en el Ministerio de Jóvenes Adventistas (AYMT, por sus siglas en inglés) que incluye 
+                                certificaciones para el Ministerio del Club de Aventureros, el Ministerio del Club de 
+                                Conquistadores, Guías Mayores y el Ministerio de Jóvenes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--Final de la Seccion de Certificados Disponibles-->
+
+            <!--Inicio Seccion de Recursos-->
+            <section class="certificados" id="recursos">
+                <div class="content">
+                    <div class="title"><span>Recursos</span></div>
+                    <div class="table">
+                        <div class="table_header">
+                            <p>Recursos Generales</p>
+                            <input type="text" class="form-control" id="input-search" placeholder="Buscar Recurso" />
+                            <!--<button class="add_new">+ Add New</button>-->
+                        </div>
+                    </div>
+                    <div class="table_section">
+                        <table id="table">
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th>Recurso</th>
+                                    <th>Tipo</th>
+                                    <th>Autor</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tbody-mantenimiento">
+                                <tr>
+                                    <td><img src="IMG/LogoIglesia.jpg" /></td>
+                                    <td>Calendario de Actividades 2024</td>
+                                    <td>PDF</td>
+                                    <td>ADE</td>
+                                    <td>
+                                        <button type="button" onclick="window.location.href='https://drive.google.com/file/d/1d0V08zEc2MfS-XFJJkj8SY1D_4DElWUQ/view'">
+                                            <i class='bx bxs-cloud-download'></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><img src="IMG/ideales.jpg" /></td>
+                                    <td>Ideales Campamento de Instrucción UD</td>
+                                    <td>PPTX</td>
+                                    <td>UD</td>
+                                    <td>
+                                        <button type="button" onclick="window.location.href='https://docs.google.com/presentation/d/1q0Q-EZrSKUZoLHRH2lOa7mLm7CURoXDO/edit?usp=drive_link&ouid=100698196053873719255&rtpof=true&sd=true'">
+                                            <i class='bx bxs-cloud-download'></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><img src="IMG/marcha.jpg" /></td>
+                                    <td>Conceptos, Estilos y Criterios Básicos de Marchas</td>
+                                    <td>PDF</td>
+                                    <td>ADE</td>
+                                    <td>
+                                        <button type="button" onclick="window.location.href='https://drive.google.com/file/d/1w5GDtWDjprTgKIzGbVJ5hDi40SK6bLQG/view?usp=sharing'">
+                                            <i class='bx bxs-cloud-download'></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><img src="IMG/ManualDeEspecialidades.jpg" /></td>
+                                    <td>Manual de Especialidades</td>
+                                    <td>PDF</td>
+                                    <td>CG</td>
+                                    <td>
+                                        <button type="button" onclick="window.location.href='https://drive.google.com/file/d/1hLVP15WD8fO80WLar4IxFmryl_Nq1cZG/view?usp=drive_link'">
+                                            <i class='bx bxs-cloud-download'></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><img src="IMG/HimnoNacional.jpg" /></td>
+                                    <td>Himno Nacional Dominicano</td>
+                                    <td>mp4</td>
+                                    <td>UD</td>
+                                    <td>
+                                        <button type="button" onclick="window.location.href='https://drive.google.com/file/d/1lzANwylWFK_gKxsFLaYn_AkvLh5JYvVt/view?usp=drive_link'">
+                                            <i class='bx bxs-cloud-download'></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><img src="IMG/guias_mayores.png" /></td>
+                                    <td>Himno de los Guías Mayores</td>
+                                    <td>mp4</td>
+                                    <td>UD</td>
+                                    <td>
+                                        <button type="button" onclick="window.location.href='https://drive.google.com/file/d/1yCHOFhhbJoE7cIXkfGBsTnNYsJ8JbbcC/view?usp=drive_link'">
+                                            <i class='bx bxs-cloud-download'></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><img src="IMG/conquistadores.png" /></td>
+                                    <td>Himno de los Conquistadores</td>
+                                    <td>mp4</td>
+                                    <td>UD</td>
+                                    <td>
+                                        <button type="button" onclick="window.location.href='https://drive.google.com/file/d/1lo0jDdjrIry__Lto7lwuFFBeomvQa31-/view?usp=drive_link'">
+                                            <i class='bx bxs-cloud-download'></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><img src="IMG/aventureros.png" /></td>
+                                    <td>Himno de los Aventureros</td>
+                                    <td>mp4</td>
+                                    <td>ADE</td>
+                                    <td>
+                                        <button type="button" onclick="window.location.href='https://drive.google.com/file/d/10_os_tGt9fubqcbsIBj1ZBuNszB4EcMv/view?usp=drive_link'">
+                                            <i class='bx bxs-cloud-download'></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><img src="IMG/LogoIglesia.jpg" /></td>
+                                    <td>Modelo de Carta ADE</td>
+                                    <td>DOC</td>
+                                    <td>ADE</td>
+                                    <td>
+                                        <button type="button" onclick="window.location.href='https://docs.google.com/document/d/110DVMvA-05OiQ1mtN8ND7wdKVFKFhUNw/edit?usp=drive_link&ouid=100698196053873719255&rtpof=true&sd=true'">
+                                            <i class='bx bxs-cloud-download'></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><img src="IMG/amigo-art.png" /></td>
+                                    <td>Clase Progresiva Amigo</td>
+                                    <td>PDF</td>
+                                    <td>ADE</td>
+                                    <td>
+                                        <button type="button" onclick="window.location.href='https://drive.google.com/file/d/1nCEgQOay_RznRnb60F2GJ0-fH23PwKWN/view?usp=drive_link'">
+                                            <i class='bx bxs-cloud-download'></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><img src="IMG/companero-art.png" /></td>
+                                    <td>Clase Progresiva Compañero</td>
+                                    <td>PDF</td>
+                                    <td>ADE</td>
+                                    <td>
+                                        <button type="button" onclick="window.location.href='https://drive.google.com/file/d/1GgYbwBn4zKl4-TT2yDUwgcJZubduIqVj/view?usp=drive_link'">
+                                            <i class='bx bxs-cloud-download'></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><img src="IMG/explorador-art.png" /></td>
+                                    <td>Clase Progresiva Explorador</td>
+                                    <td>PDF</td>
+                                    <td>ADE</td>
+                                    <td>
+                                        <button type="button" onclick="window.location.href='https://drive.google.com/file/d/1Xx_10XH3p7Bsou2c5Q15C-qyz3xBOcpi/view?usp=drive_link'">
+                                            <i class='bx bxs-cloud-download'></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><img src="IMG/orientador-art.png" /></td>
+                                    <td>Clase Progresiva Orientador</td>
+                                    <td>PDF</td>
+                                    <td>ADE</td>
+                                    <td>
+                                        <button type="button" onclick="window.location.href='https://drive.google.com/file/d/1Fa2onPrtOqmnWJu87ZJRGL028WFmmzue/view?usp=drive_link'">
+                                            <i class='bx bxs-cloud-download'></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><img src="IMG/viajero-art.png" /></td>
+                                    <td>Clase Progresiva Viajero</td>
+                                    <td>PDF</td>
+                                    <td>ADE</td>
+                                    <td>
+                                        <button type="button" onclick="window.location.href='https://drive.google.com/file/d/1yYfkFzSg6rFoKI2-WdHRqiesoVnXhjAP/view?usp=drive_link'">
+                                            <i class='bx bxs-cloud-download'></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><img src="IMG/guia-art.png" /></td>
+                                    <td>Clase Progresiva Guía</td>
+                                    <td>PDF</td>
+                                    <td>ADE</td>
+                                    <td>
+                                        <button type="button" onclick="window.location.href='https://drive.google.com/file/d/1gWIcGLv_b8rLrggvmXjkkaSfoaVbBz0f/view?usp=drive_link'">
+                                            <i class='bx bxs-cloud-download'></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><img src="IMG/LogoIglesia.jpg" /></td>
+                                    <td>Calendario de Actividades 2024</td>
+                                    <td>PDF</td>
+                                    <td>ADE</td>
+                                    <td>
+                                        <button type="button" onclick="window.location.href='https://drive.google.com/file/d/1d0V08zEc2MfS-XFJJkj8SY1D_4DElWUQ/view'">
+                                            <i class='bx bxs-cloud-download'></i>
+                                        </button>
+                                    </td>
+                                </tr>                                
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="pagination" id="pagination">                        
+                        <!--<div><i class='bx bx-chevrons-left'></i></div>
+                        <div><i class='bx bx-chevron-left'></i></div>
+                        <div>1</div>
+                        <div>2</div>
+                        <div><i class='bx bx-chevron-right'></i></div>
+                        <div><i class='bx bx-chevrons-right'></i></div>-->
+                    </div>
+                </div>
+            </section>
+            <!--Final Seccion de Recursos-->
+            <!--Aqui inicia la Seccion del Pie de Pagina-->
+            <footer class="section footer">
+                <div class="footer-container container">
+                    <div class="footer-content">
+                        <a href="#" class="logo-content flex">
+                            <i class="bx bx-church logo-icon"></i>
+                            <span class="logo-text">Asosiación Dominicana del Este</span>
+                        </a>
+                        <p class="content-description">
+                            Recuerda asistir a una de nuestras iglesias Adventistas más cercana
+                            en comunidad o barrio y Confía en Él
+                        </p>
+                        <div class="footer-location flex">
+                            <i class="bx bx-map map-icon"></i>
+                            <div class="location-text">
+                                Av. Mauricio Báez, San Pedro de Macorís 21000
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-linkContent">
+                        <ul class="footer-links">
+                            <h4 class="footerLinkks-title">Conferencias</h4>
+                            <li><a href="#" class="footer-link">Conferencia General</a></li>
+                            <li><a href="#" class="footer-link">División Interamericana</a></li>
+                            <li><a href="#" class="footer-link">Unión Dominicana (UD)</a></li>
+                            <li><a href="#" class="footer-link">Asoc. Central Dom. (ACD)</a></li>
+                            <li><a href="#" class="footer-link">Asoc. Dom. del Sur (ADS)</a></li>
+                            <li><a href="#" class="footer-link">Asoc. Dom. del Norte (ADN)</a></li>
+                            <li><a href="#" class="footer-link">Asoc. Dom. del Sureste (ADOSE)</a></li>
+                            <li><a href="#" class="footer-link">Asoc. Dom. del Nordeste (ADONE)</a></li>
+                            <li><a href="#" class="footer-link">Asoc. Dom. del Este (ADE)</a></li>
+                        </ul>
+                        <ul class="footer-links">
+                            <h4 class="footerLinkks-title">Ayuda</h4>
+                            <li><a href="#" class="footer-link">Acerca de Nosotros</a></li>
+                            <li><a href="#" class="footer-link">FAQs</a></li>
+                            <li><a href="#" class="footer-link">Politicas de Privacidad</a></li>
+                            <li><a href="#" class="footer-link">Contactanos</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-copyRight">&#169; ADE, Todos los Derechos Reservados</div>
+            </footer>
+            <!--Aqui Finaliza la Seccion del Pie de Pagina-->
+        </form>        
+        <div class="sabbath">
+            <img src="IMG/IASD 3.png" alt="LogoIglesia" />
+        </div>
+        <script src="JS/index.js"></script>
+        <script src="JS/pagination.js"></script>
+    </body>
+</html>
